@@ -6,7 +6,7 @@ pipeline {                                    // 1  // Defines the start of the 
     stages {                                  // 3  // Defines the stages block where multiple stages are declared
         stage('git clone') {                  // 4  // Creates a stage named 'git clone'
             steps {                           // 5  // Defines the steps that will be executed in this stage
-                git url: 'https://github.com/SaiDevOpsFaculty/sparkjava-war.git', branch: 'main'  
+                git url: 'https://github.com/avinashtj1610/central-git.git', branch: 'main'  
                                               // Clones the specified GitHub repository from the master branch
             }                                 // 5  // Ends the steps block for 'git clone' stage
         }                                     // 4  // Ends the 'git clone' stage
